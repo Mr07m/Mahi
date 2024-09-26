@@ -3,6 +3,7 @@ $(document).ready(function () {
     let b = $("body");
     $(".mood i").toggleClass("fa-solid fa-moon light-mood");
     b.toggleClass("light-mood");
+    $("header nav").toggleClass("navbar-dark");
     $("header nav a span").toggleClass("text-dark");
     $(".nav-link i").toggleClass("text-dark");
     $(".my-info h3 span").toggleClass("text-danger");
