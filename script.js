@@ -1,0 +1,32 @@
+$(document).ready(function () {
+  $(".mood").click(function () {
+    let b = $("body");
+    $(".mood i").toggleClass("fa-solid fa-moon light-mood");
+    b.toggleClass("light-mood");
+    $("header nav a span").toggleClass("text-dark");
+    $(".nav-link i").toggleClass("text-dark");
+    $(".my-info h3 span").toggleClass("text-danger");
+    $(".my-info p").toggleClass("text-dark");
+    $(".my-info a").toggleClass("btn-outline-dark");
+    $(".my-home .overview").toggleClass("bg-light border");
+    $(".my-home .overview .ovr-sec h3").toggleClass("text-dark");
+    $(".my-home .overview .ovr-sec p").toggleClass("text-success");
+    $(".my-nav").toggleClass("my-nav-light");
+    $(".my-nav ul li a").toggleClass("text-dark");
+    $(".my-nav ul li").toggleClass("my-nav-light-hover");
+    $(".project-info .text-align-justify").toggleClass("text-dark");
+    $(".more-project a").toggleClass("btn-outline-dark");
+    $(".quick-links a").toggleClass("text-dark");
+    $(".social-links .social-item a").toggleClass("text-dark");
+    $(".projects").toggleClass("border-bottom ");
+    $(".home").toggleClass("border-bottom ");
+    $(".aboutme").toggleClass("border-bottom ");
+    $(".education").toggleClass("border-bottom ");
+    $(".Service").toggleClass("border-bottom ");
+    $(".skilss").toggleClass("border-bottom ");
+    $(".feedback").toggleClass("border-bottom ");
+    $(".contact").toggleClass("border-bottom ");
+    $("header").toggleClass("border-bottom ");
+    $(".simple-form span input").toggleClass("text-dark");
+  });
+});
